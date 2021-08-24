@@ -1,0 +1,464 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header Style */
+
+.jon-header {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.jon-header span {
+    display: inline-block;
+    background: #6278df;
+    color: #fff;
+    height: 45px;
+    width: 40px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 28px;
+    position: relative;
+    top: 2px;
+}
+
+.navbar-nav.jon-menu {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a.navbar-brand {
+    font-size: 27px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.button-css {
+    font-size: 16px;
+    color: #6278df;
+    border-width: 2px;
+    border-color: #6278df;
+}
+
+.button-css:hover {
+    background: #6278df;
+    color: #fff;
+}
+
+/* Slider Section */
+
+.slider-section {
+    background: url(./images/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, .4);
+    z-index: -1;
+}
+
+.slider-caption h4 {
+    margin-bottom: 35px;
+}
+
+.slider-caption h2 {
+    margin-bottom: 50px;
+    font-size: 46px;
+}
+
+.slider-caption .btn {
+    background: #5ba533;
+    padding: 18px 85px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .4s;
+}
+
+.slider-caption .btn:hover {
+    background: #fff;
+    color: #6278df;
+}
+
+.slider-section .form-control {
+    padding: 18px 20px;
+}
+
+/* Counter Section */
+
+.counter-number-item {
+    font-size: 20px;
+    text-align: center;
+}
+
+p.h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+/* About Section */
+
+.about-section {
+    background: #f6f7fd;
+}
+
+.about-text-left {
+    margin-top: 180px;
+}
+
+.about-text-left .lead {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+/* Feature Section CSS */
+
+.about-title h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.about-title p {
+    font-size: 23px;
+    padding: 20px 0 50px 0;
+    color: #a6a8a6;
+    font-weight: 300;
+}
+
+.feature-item {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+    transition: .4s;
+}
+
+.feature-item:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.right-text-sec {
+    width: 60%;
+    padding: 25px;
+}
+
+.right-text-sec p {
+    color: #a6a8a6;
+    font-weight: 300;
+    font-size: 17px;
+    padding-top: 15px;
+}
+
+.left-img-sec img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -100px;
+}
+
+.img img {
+    width: 100%;
+    position: relative;
+    left: 0;
+}
+
+
+/* Portfolio Section */
+
+.portfolio-caption h1 {
+    padding-top: 30px;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+
+/* Portfolio Hover CSS */
+
+.portfolio-item a {
+    position: relative;
+    display: block;
+}
+
+.portfolio-item a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(98, 120, 223, .7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.portfolio-item a:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Pricing Table Section */
+
+.min-section-bg {
+    background: #f7f9ff;
+    margin-top: 50px;
+}
+
+.min-section-bg .pricing-table-title {
+    font-size: 56px;
+    font-weight: 400;
+    padding: 20px 0 15px 0;
+}
+
+.min-section-bg .pricing-table-subtitle {
+    color: #777;
+    font-size: 25px;
+    padding-bottom: 60px;
+}
+
+
+/* Pricing Table Section */
+
+.pricing-item {
+    background: #fff;
+    padding: 55px 45px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64, 87, 191, .2);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: .3s;
+    box-sizing: border-box;
+}
+
+.pricing-item:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64, 87, 191, .4);
+}
+
+.pricing-item h1 {
+    font-size: 42px;
+}
+
+.pricing-item h5 {
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.pricing-item ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+
+.pricing-item ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #777;
+}
+
+.pricing-item ul li span {
+    color: #657be0;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+}
+
+.pricing-item-button a {
+    border-color: #657be0;
+    border-width: 2px;
+    color: #657be0;
+    padding: 12px 30px;
+    font-size: 22px;
+    width: 550px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64, 87, 191, .2);
+    border: none;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.pricing-item:hover .pricing-item-button a {
+    background: #657be0;
+    color: #fff;
+}
+
+.pricing-item-button a:hover {
+    color: #fff !important;
+    background: #000 !important;
+}
+
+
+/* Testmonial Section */
+
+.testmonial-title {
+    color: #6c757d !important;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.testmonial-seciton {
+    margin: 20px 0 25px 0;
+}
+
+.testmonial-seciton h1 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.testmonial-seciton span {
+    font-size: 75px;
+    color: #f0f0f0;
+}
+
+.testmonial-seciton .para {
+    font-size: 1.3em;
+    font-weight: 300;
+    padding: 0 110px;
+}
+
+.author-info {
+    width: 220px;
+    margin: auto;
+}
+
+.author-info img {
+    width: 70px;
+    margin-right: 18px;
+}
+
+.author-info .user {
+    font-size: 17px;
+    color: #777;
+    font-weight: 400;
+}
+
+.user-details {
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+
+
+/* About Section */
+
+.about-section {
+    padding: 50px 0 100px 0;
+}
+
+.about-item {
+    margin-top: 90px;
+    transition: .4s;
+}
+
+.about-item .card {
+    padding: 20px 10px;
+}
+
+.about-item:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(50, 93, 185, 0.2);
+}
+
+.about-item .card img {
+    width: 130px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+
+.about-title {
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.c-text {
+    font-size: 16px;
+}
+
+.c-title {
+    font-size: 20px;
+    margin-top: 17px;
+}
+
+.c-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.c-button {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.c-button:hover {
+    background: #465052;
+    color: #fff;
+    transition: .4s;
+}
+
+/* Contact Us */
+
+.contact-form-div .card {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, .2);
+    margin: auto;
+    padding: 50px;
+}
+
+.w-class {
+    padding: 20px;
+    font-size: 20px;
+    color: #ddd;
+    font-weight: 300;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, .1);
+}
+
+.contact-title {
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.contact-head {
+    font-size: 25px;
+}
+
+.contact-button {
+    background: #6278df;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 15px 30px;
+    outline: none;
+    border: 1px solid #6278df;
+    transition: .4s;
+}
+
+.contact-button:hover {
+    background: #fff;
+    color: #6278df;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, .7);
+}
